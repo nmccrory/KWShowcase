@@ -1,0 +1,73 @@
+#collectionIndexWrapper {
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+}
+
+#collectionIndexRow1 {
+	display: block;
+	width: 100%;
+	height: 33.33%;
+}
+
+#collectionIndexRow2 {
+	display: block;
+	width: 100%;
+	height: 33.33%;
+}
+
+#collectionIndexRow3 {
+	display: block;
+	width: 100%;
+	height: 33.33%;
+}
+
+.collectionColumn1{
+
+}
+
+.collectionItem {
+	display: inline-block;
+	margin: 0px;
+	width: 33.33%;
+	height: 100%;
+	float: left;
+}
+
+.collectionItem h1 {
+	display: inline-block;
+	font-family: 'Yantramanav', sans-serif;
+	color: white;
+}
+
+/* Styling for individual album covers */
+#album1 {
+	background-color: #3D060D;
+}
+#album2 {
+	background-color: #5A2D10;
+}
+#album3 {
+	background-color: #944477;
+}
+#album4 {
+	background-color: #D1DAD9;
+}
+#album5 {
+	background-color: #EC2D4A;
+}
+#album6 {
+	background-color: #D8C193;
+}
+#album7 {
+	background-color: #F2F2F2;
+}
+#album8 {
+	background-color: #1A1A1A;
+}
+#album9 {
+	background-color: #F68B57;
+}
