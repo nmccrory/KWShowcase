@@ -1,6 +1,7 @@
 /*Normalize html*/
 body{
 	margin: 0px;
+	background-color: #FAFAFA;
 	padding: 0px;
 }
 .windowWrapper {

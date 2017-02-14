@@ -25,22 +25,41 @@
 	height: 33.33%;
 }
 
-.collectionColumn1{
-
-}
-
 .collectionItem {
 	display: inline-block;
 	margin: 0px;
 	width: 33.33%;
 	height: 100%;
+	position:relative;
+	line-height: 100%;
+	text-align: center;
 	float: left;
+	cursor: pointer;
 }
 
-.collectionItem h1 {
-	display: inline-block;
-	font-family: 'Yantramanav', sans-serif;
-	color: white;
+.card {
+	width: 100%;
+	height: 100%;
+}
+
+.cardFace {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.albumIcon {
+	display:inline-block;
+	opacity:0;
+	height: 80%;
+	vertical-align: middle;
+	margin: auto;
+}
+
+.alignmentHelper {
+	display:inline-block;
+	height:100%;
+	vertical-align: middle;
 }
 
 /* Styling for individual album covers */
