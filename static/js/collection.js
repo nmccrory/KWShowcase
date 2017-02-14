@@ -16,8 +16,7 @@ $(document).ready(function(){
 	tl2.staggerTo(albumIcons, 0.2, {opacity: 1, ease:Power1.easeIn, delay: 2.2}, 0.1)
 
 	TweenLite.set(".collectionItem", {perspective:800});
-	TweenLite.set(".cardFace", {transformStyle: "preserve-3d"});
-
+	TweenLite.set(".card", {transformStyle: "preserve-3d"});
 	TweenLite.set(".back", {rotationY:-180});
 	TweenLite.set([".back", ".front"], {backfaceVisibility:"hidden"});
 
