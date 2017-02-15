@@ -22,10 +22,10 @@ $(document).ready(function(){
 
 	collectionItems.hover(
 		function() {
-    		TweenLite.to($(this).find(".card"), 1.2, {rotationY:180, ease:Back.easeOut});
+			TweenLite.to($(this).find(".card"), 0.8, {rotationY:-180, ease:Back.ease});
   	}, 
   		function() {
-    		TweenLite.to($(this).find(".card"), 1.2, {rotationY:0, ease:Back.easeOut});  
+			TweenLite.to($(this).find(".card"), 1.2, {rotationY:0, ease:Back.easeOut});
     	}
     );
 })

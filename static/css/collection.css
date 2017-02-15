@@ -39,6 +39,7 @@
 }
 
 .card {
+	box-shadow: 1px 1px 4px black;
 	width: 100%;
 	height: 100%;
 }
@@ -47,14 +48,40 @@
 	position: absolute;
 	height: 100%;
 	width: 100%;
+	text-align: center;
 }
 
+.cardFace h1, h4, p {
+	color: white;
+	font-family:'Yantramanav', sans-serif;
+}
+
+.cardFace h4 {
+	font-weight: 700;
+}
+
+.cardFace p {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 16pt;
+	line-height: 20px
+}
+
+.cardFaceAlt {
+	color: #222 !important;
+}
+
+.front h1 {
+	font-weight: 100;
+	margin-bottom:0px;
+}
 .albumIcon {
 	display:inline-block;
 	opacity:0;
-	height: 80%;
+	height: 75%;
 	vertical-align: middle;
 	margin: auto;
+	margin-top: -5%;
 }
 
 .alignmentHelper {
@@ -71,7 +98,7 @@
 	background-color: #5A2D10;
 }
 #album3 {
-	background-color: #944477;
+	background-color: #764494;
 }
 #album4 {
 	background-color: #D1DAD9;
